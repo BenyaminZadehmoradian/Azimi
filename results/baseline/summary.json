@@ -1,0 +1,74 @@
+{
+  "artifact": "PHAX_DIGITAL_BASELINE_FP32_VGG9_CIFAR10",
+  "run_id": "20261005_093611",
+  "dataset": "CIFAR-10",
+  "seed": 42,
+  "run_mode": "from_scratch",
+  "split_fingerprint": "c7cee14bf6acb10a103c2d362ed94615d4e67bcf3a944cb2dd10f4d138bccf62",
+  "dataset_sha256": "b937bd560d14815cc5e310ab7435d42bf0f47711847a88071630ed643a14e1a6",
+  "validation": {
+    "loss": 0.3157713623046875,
+    "accuracy": 0.9214
+  },
+  "test": {
+    "loss": 0.3178569091796875,
+    "accuracy": 0.9193
+  },
+  "train_full": {
+    "loss": 0.013056316460503472,
+    "accuracy": 0.9963777777777778
+  },
+  "optimizer_epochs": 45,
+  "parameters_total": 4962890,
+  "parameters_trainable": 4958026,
+  "timing": {
+    "data_setup_sec": 1.6247085239999706,
+    "train_loop_sec": 2661.1027997659985,
+    "validation_selection_sec": 40.821706820999964,
+    "checkpoint_sec": 6.137566338999818,
+    "inference_benchmark_sec": 0.8254836520000026,
+    "final_test_sec": 1.5988153860002967,
+    "final_train_eval_sec": 7.1150141789999,
+    "total_wall_sec": 2726.086526007,
+    "other_setup_reporting_sec": 6.860431340001469
+  },
+  "inference_benchmark": [
+    {
+      "batch": 1,
+      "repeats": 30,
+      "median_batch_ms": 2.3746179999761807,
+      "p90_batch_ms": 2.4911673999213235,
+      "median_image_ms": 2.3746179999761807,
+      "synchronization": "output.numpy; includes output transfer",
+      "execution": "tf.function FP32 simulation"
+    },
+    {
+      "batch": 64,
+      "repeats": 30,
+      "median_batch_ms": 7.700457999817445,
+      "p90_batch_ms": 7.845792099760729,
+      "median_image_ms": 0.12031965624714758,
+      "synchronization": "output.numpy; includes output transfer",
+      "execution": "tf.function FP32 simulation"
+    }
+  ],
+  "environment": {
+    "python": "3.13.15",
+    "tensorflow": "2.20.0",
+    "keras": "3.13.2",
+    "visible_GPU": [
+      "Tesla T4"
+    ],
+    "precision": "float32",
+    "batch_size": 16,
+    "deterministic": true,
+    "multi_GPU_training": false
+  },
+  "test_used_for_selection": false,
+  "comparison_limits": [
+    "macro architecture and data matched; analog differential cells are separate parameters",
+    "epoch cap matched to observed V10.5 total; actual early-stop epochs may differ",
+    "hardware continuation has historical training cost and extra optimization"
+  ],
+  "hardware_reference_artifact": "PHAX_VGG9_CIFAR10_V10_5_STE_PROGRESSIVEBN_2026-10-04"
+}

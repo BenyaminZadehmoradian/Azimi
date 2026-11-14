@@ -1,0 +1,11 @@
+label,variant,data_source,images,fit_images,accuracy,disagreement_with_current_internal_digital_head,top1_tie_fraction,median_margin_native_units,diagnostic_only,digital_bias_abs_max
+S10_MAPPED_BEFORE_RECOVERY,digital_with_bias,second_half_of_fixed_TRAIN_probe,200,200,0.98,0.0,0.0,7.044361412525177,False,0.07422361522912979
+S10_MAPPED_BEFORE_RECOVERY,digital_without_bias,second_half_of_fixed_TRAIN_probe,200,200,0.98,0.0,0.0,7.115751326084137,False,0.07422361522912979
+S10_MAPPED_BEFORE_RECOVERY,physical_volts,second_half_of_fixed_TRAIN_probe,200,200,0.975,0.015,0.0,0.2166093634441495,False,0.07422361522912979
+S10_MAPPED_BEFORE_RECOVERY,physical_ADC,second_half_of_fixed_TRAIN_probe,200,200,0.975,0.015,0.0,55.0,False,0.07422361522912979
+S10_MAPPED_BEFORE_RECOVERY,diagnostic_only_fitted_affine,second_half_of_fixed_TRAIN_probe,200,200,0.985,0.015,0.0,7.584270691224388,True,0.07422361522912979
+FINAL_SELECTED,digital_with_bias,second_half_of_fixed_TRAIN_probe,200,200,0.985,0.0,0.0,7.218383967876434,False,0.07422361522912979
+FINAL_SELECTED,digital_without_bias,second_half_of_fixed_TRAIN_probe,200,200,0.985,0.0,0.0,7.250483572483063,False,0.07422361522912979
+FINAL_SELECTED,physical_volts,second_half_of_fixed_TRAIN_probe,200,200,0.99,0.005,0.0,0.22210077196359634,False,0.07422361522912979
+FINAL_SELECTED,physical_ADC,second_half_of_fixed_TRAIN_probe,200,200,0.985,0.01,0.005,56.0,False,0.07422361522912979
+FINAL_SELECTED,diagnostic_only_fitted_affine,second_half_of_fixed_TRAIN_probe,200,200,0.98,0.005,0.0,7.593309789466154,True,0.07422361522912979

@@ -1,0 +1,252 @@
+{
+  "RUN_MODE": "from_scratch",
+  "SEED": 42,
+  "BATCH_SIZE": 32,
+  "EVAL_BATCH_SIZE": 64,
+  "CALIBRATION_SAMPLES": 200,
+  "FINAL_LOGIT_TEMPERATURE_SHIFT": 3,
+  "STEPS_PER_EXECUTION": 16,
+  "SHIFTADD_GROUPS": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9
+    ]
+  ],
+  "SHIFTADD_TOTAL_EPOCH_BUDGET": 12,
+  "TRAIN_SHIFTADD_BIAS": true,
+  "BN_ACCUMULATOR_BITS": 16,
+  "ADC_BITS": 8,
+  "DAC_BITS": 8,
+  "V_LIMIT": 0.5,
+  "SIG_MIN_US": 0.12,
+  "SIG_MAX_US": 8.0,
+  "LOADING_MODE": "loading_off",
+  "REPEAT_POLICY": "repeat_off",
+  "experiment_name": "INFO00_BN05_CONTROL_DIAGNOSTICS",
+  "base_notebook_sha256": "3727679bd3b0e6e488ac1e798861510c9b51608eb72c7c77df131e54bdea7132",
+  "BN_experiment": {
+    "BN_DIRECT_BIAS": false,
+    "BN_LEARN_SCALE": false,
+    "BN_REESTIMATE_STATS": false,
+    "BN_FIT_ALL_TRAIN": false,
+    "BN_FLOAT_FULL_RANGE": true,
+    "BN_FROM_FIRST_STEP": false,
+    "BN_BIAS_UPDATE_MULTIPLIER": 100.0,
+    "BN_SCALE_UPDATE_MULTIPLIER": 20.0
+  },
+  "PROGRESSIVE_ENDPOINTS": [
+    2,
+    4,
+    6,
+    8,
+    9
+  ],
+  "PROGRESSIVE_PLAN": {
+    "2": {
+      "lr": 0.001,
+      "patience": 12,
+      "max_epochs": 12
+    },
+    "4": {
+      "lr": 0.00075,
+      "patience": 3,
+      "max_epochs": 10
+    },
+    "6": {
+      "lr": 0.0006,
+      "patience": 3,
+      "max_epochs": 10
+    },
+    "8": {
+      "lr": 0.0005,
+      "patience": 3,
+      "max_epochs": 10
+    },
+    "9": {
+      "lr": 0.0004,
+      "patience": 3,
+      "max_epochs": 8
+    }
+  },
+  "S10_WARMUP_LR": 0.001,
+  "S10_WARMUP_MAX_EPOCHS": 6,
+  "FULL_JOINT_LR": 0.0003,
+  "FULL_JOINT_MAX_EPOCHS": 15,
+  "FLOAT_LOW_LR": 0.00015,
+  "FLOAT_LOW_MAX_EPOCHS": 8,
+  "FLOAT_LOWER_LR": 7.5e-05,
+  "FLOAT_LOWER_MAX_EPOCHS": 6,
+  "V11_SHIFT_QAT_LR": 5e-05,
+  "V11_SHIFT_QAT_MAX_EPOCHS": 4,
+  "RUN_FINAL_TRAIN_EVAL": true,
+  "vtc_mode": "DISCRETE_SLOPE_SELECTED_RAW_HSPICE_V7_LUT",
+  "real_HSPICE_LUT_used": true,
+  "vtc_sampled_R_count": 181,
+  "vtc_realizable_R_count": 171,
+  "vtc_sampled_Vin_count": 1001,
+  "vtc_data_sha256": "b4f94f3e6476120f4f55aec97e5f676dfcece75ee7b9d666aeeac9d753b0e91f",
+  "vtc_R_policy": "nearest_discrete_measured_physical_slope",
+  "vtc_forward": "measured_PWL_single_gather_XLA_precomputed_segment_coefficients",
+  "lut_gpu_optimization": "HSPICE_EXACT_SEGMENTS_XLA_JIT_SINGLE_GATHER_FLOAT32",
+  "lut_stage_lookup_ops": 1,
+  "lut_xla_isolated_compilation": true,
+  "lut_coefficients_derived_from_original_HSPICE_knots": true,
+  "lut_gpu_benchmark": [
+    {
+      "workload": "medium",
+      "method": "TF LUT reference",
+      "first_compile_and_execution_s": 0.276,
+      "steady_forward_backward_ms": 3.0639
+    },
+    {
+      "workload": "medium",
+      "method": "TF LUT single-gather",
+      "first_compile_and_execution_s": 0.161,
+      "steady_forward_backward_ms": 1.6399
+    },
+    {
+      "workload": "medium",
+      "method": "TF LUT XLA",
+      "first_compile_and_execution_s": 0.467,
+      "steady_forward_backward_ms": 1.1465
+    },
+    {
+      "workload": "large",
+      "method": "TF LUT reference",
+      "first_compile_and_execution_s": 0.183,
+      "steady_forward_backward_ms": 15.998
+    },
+    {
+      "workload": "large",
+      "method": "TF LUT single-gather",
+      "first_compile_and_execution_s": 0.101,
+      "steady_forward_backward_ms": 5.8807
+    },
+    {
+      "workload": "large",
+      "method": "TF LUT XLA",
+      "first_compile_and_execution_s": 0.322,
+      "steady_forward_backward_ms": 2.0388
+    }
+  ],
+  "local_train_samples": 6000,
+  "local_holdout_samples": 1000,
+  "local_epochs_cap": 5,
+  "local_batch": 32,
+  "local_max_epochs_by_stage": {
+    "3": 5,
+    "4": 6,
+    "5": 5,
+    "6": 7,
+    "7": 5,
+    "8": 8,
+    "9": 5
+  },
+  "local_patience": 2,
+  "local_lr": 0.00075,
+  "target_vmax": 0.45,
+  "recovery_lr": 0.0002,
+  "recovery_epochs": 2,
+  "block_qat_lr": 5e-05,
+  "block_qat_epochs_by_endpoint": {
+    "2": 2,
+    "4": 2,
+    "6": 1,
+    "8": 1,
+    "9": 0
+  },
+  "recovery_epochs_by_endpoint": {
+    "4": 1,
+    "6": 0,
+    "8": 2,
+    "9": 0
+  },
+  "endpoint2_max_epochs": 12,
+  "endpoint2_patience": 12,
+  "endpoint2_refine_lr": 0.0002,
+  "endpoint2_refine_max_epochs": 1,
+  "lower_polish_lr": 1.5e-05,
+  "lower_polish_epochs": 0,
+  "full_polish_stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "full_polish_lr": 5e-06,
+  "full_polish_epochs": 5,
+  "full_polish_patience": 2,
+  "final_adaptation": {
+    "comparison_family": "PHAX_FINAL_ADAPTATION_5E_V1",
+    "variant": "INFO00_BN05_CONTROL_DIAGNOSTICS",
+    "parent_experiment": "BN05_FLOAT_BN_SAME_FULL_ADC_RANGE",
+    "parent_notebook_sha256": "ec7af7260e1291b17bafadb9f09727f0b49ce45fda2a8839f55e0fc5e0b5d268",
+    "max_epochs": 5,
+    "patience": 2,
+    "learning_rate": 5e-06,
+    "active_stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "hardware_refresh_during_final_adaptation": false,
+    "selection_source": "validation_only",
+    "restore_best_state_including_optimizer": true
+  },
+  "head_epochs": 0,
+  "polish_stages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "polish_epochs": 1,
+  "mapping_amplitude_fraction": 0.45,
+  "head_lr": 0.0005,
+  "head_patience": 1,
+  "information_head_config": {
+    "experiment": "INFO00_BN05_CONTROL_DIAGNOSTICS",
+    "head_epochs": 0,
+    "head_lr": 0.0005,
+    "head_patience": 1,
+    "trainable_during_head_recovery": [
+      10
+    ],
+    "R_and_depth_fixed": true,
+    "full_polish_max_epochs": 5,
+    "full_polish_lr": 5e-06,
+    "full_polish_patience": 2
+  },
+  "information_probe": {
+    "train_images": 400,
+    "local_holdout_images": 200,
+    "batch_size": 4,
+    "indices_sha256": "ba22ae4bea65d354cf74b15604853ccdbb094757f102b28f8b5c3bb84633fc59"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "PROMPT_FA.md": {
+    "sha256": "e931dcc68065452c6479d9c8de700206f137f3353eb7617fdd9fdf8611c674c5",
+    "bytes": 11494
+  },
+  "README_FA.md": {
+    "sha256": "371564596d9ceaac9a9117e9a612a18d59be6db15006c49c37c32e6e7b87753e",
+    "bytes": 2836
+  },
+  "code/INFO00_BN05_CONTROL_DIAGNOSTICS.ipynb": {
+    "sha256": "39614fdbc2b8f64ef2e948cc5d46610d9df6245b96e742bd56976655c89d346b",
+    "bytes": 209720
+  },
+  "code/PHAX_DIGITAL_BASELINE_VGG9_CIFAR10_MATCHED_FP32.ipynb": {
+    "sha256": "6b7cc4369d641aa77891e154ab933b7c641156ee2dedfd3a968212736ca7f0ac",
+    "bytes": 27912
+  },
+  "hardware/PHAX_HSPICE_V7_181x1001_REAL_RAW_LUT.npz": {
+    "sha256": "b4f94f3e6476120f4f55aec97e5f676dfcece75ee7b9d666aeeac9d753b0e91f",
+    "bytes": 687369
+  },
+  "results/archives/INFO00_BN05_CONTROL_DIAGNOSTICS_RESULTS_20261106_210954.zip": {
+    "sha256": "b9a4e2b49c472780d757445d01c408f044be8bb0adf41653e1deed9a34cbd176",
+    "bytes": 3633777
+  },
+  "results/archives/PHAX_DIGITAL_BASELINE_RESULTS_20261005_093611.zip": {
+    "sha256": "01734af32fd20b0a41a8a7f3a195d7c573055054da591dd30c802efc64761781",
+    "bytes": 47763
+  },
+  "results/baseline/accuracy_by_epoch.png": {
+    "sha256": "66bda2dfcf8d926cc3f268605b7df2d5db25163185a9faa5eec6ce02471a8429",
+    "bytes": 46836
+  },
+  "results/baseline/config.json": {
+    "sha256": "586214158afb02e7205c32b6928e8089865546c54ab86cf7263edc5080a3d713",
+    "bytes": 1013
+  },
+  "results/baseline/digital_vs_hardware.csv": {
+    "sha256": "72ad035a9a2a05eba1c8283a0fb0449797a3775905b49a32c516b8019afd72f5",
+    "bytes": 359
+  },
+  "results/baseline/evaluation_history.csv": {
+    "sha256": "64cb53e4de8f944aa8107ce2bfa4dc0729bb6a382f243915921fa762c1ca5f5a",
+    "bytes": 5412
+  },
+  "results/baseline/inference_benchmark.csv": {
+    "sha256": "5d2d383c15f98bea69b5789312249ac27892ece94f5da0c7bbc06bd3cbfe9a9a",
+    "bytes": 343
+  },
+  "results/baseline/phase_summary.csv": {
+    "sha256": "4df628c0c2a93e9e04f7d467f3b53da001fc8e9032bf95a753e50909144b645b",
+    "bytes": 149
+  },
+  "results/baseline/summary.json": {
+    "sha256": "9d550c6f67df594a030698d3f3637dae4c4622b9bc5c015d3d0cd23d797d01df",
+    "bytes": 2395
+  },
+  "results/phax/accuracy_by_epoch.png": {
+    "sha256": "ad274dacb5b36bf75c77d60d82f98c4cf511c674ce0fb374c0bc4cf6ac2b462a",
+    "bytes": 71459
+  },
+  "results/phax/adc_dac_per_channel.csv": {
+    "sha256": "88c15c619cd7b3848aadb20752add04a7421de02b49aaaaca44f7cdf48887cd1",
+    "bytes": 199368
+  },
+  "results/phax/bn_final_per_channel.csv": {
+    "sha256": "08f187b4dbf3a817a3187518e4e25aa4768a1619f293e6562bb861befe575ad8",
+    "bytes": 77926
+  },
+  "results/phax/bn_parameter_history.csv": {
+    "sha256": "cd92c279ca8b42b735405d2df07748332cbcde126674eeec9036e00af7f66be0",
+    "bytes": 18338
+  },
+  "results/phax/calibration_history.csv": {
+    "sha256": "a17cebc3d0501dc27203b8a7abefe20a7d8f2da0ee160d34d7928e520e99659b",
+    "bytes": 802
+  },
+  "results/phax/chain_summary.csv": {
+    "sha256": "a0b3872c48d2fc05a967439eb39a141fb0ce723eb5b58079250d884e52ce1cf7",
+    "bytes": 4506
+  },
+  "results/phax/config.json": {
+    "sha256": "76f2c684de163e6b26e12fa471466eacf7a13d163ef793b7d211c75df7bb277b",
+    "bytes": 5805
+  },
+  "results/phax/digital_to_physical_mapping.csv": {
+    "sha256": "b512442ca4aa10e2a32dc111283be5a7368afed06a9c936d46396f7a1ad948f3",
+    "bytes": 1053
+  },
+  "results/phax/digital_v11_v12_comparison.csv": {
+    "sha256": "f7b079f26b69580cfbd0fd4ea014b51cf2914c7f61ecd720da9a9e513cdeffa6",
+    "bytes": 270
+  },
+  "results/phax/direct_hspice_selected_resistors_and_gains.csv": {
+    "sha256": "94b33becbc0cb22218ab60723bbc469e6df8090c33e0bec7f251d8813f49844b",
+    "bytes": 1228979
+  },
+  "results/phax/epoch_timing.csv": {
+    "sha256": "29e7e957385bc90979a7dd37249bbab75507903046f16668764b725be577c0c4",
+    "bytes": 4757
+  },
+  "results/phax/evaluation_history.csv": {
+    "sha256": "29e7e957385bc90979a7dd37249bbab75507903046f16668764b725be577c0c4",
+    "bytes": 4757
+  },
+  "results/phax/events.csv": {
+    "sha256": "dbe8ec4008f6ee77ce9e51d4318835efd7484dfe89f8835e1cd271a4437c6eca",
+    "bytes": 9742
+  },
+  "results/phax/events_live.csv": {
+    "sha256": "dbe8ec4008f6ee77ce9e51d4318835efd7484dfe89f8835e1cd271a4437c6eca",
+    "bytes": 9742
+  },
+  "results/phax/final_hardware.json": {
+    "sha256": "5afe0cb6252ddf59a60fdfa6af0f85037f3d96a45e2b275cb0b8dd9cfbe52d2c",
+    "bytes": 1263449
+  },
+  "results/phax/final_shiftadd_bn.json": {
+    "sha256": "c02592251d3a34ede0a756b6d96552dd01ef5a5603ae801e3ca634cdc1a83c20",
+    "bytes": 186709
+  },
+  "results/phax/gradient_diagnostics.csv": {
+    "sha256": "0c34800b6df1b9f3a048e04b4668b0bdbd120988d37ef8d121850a6dd6073a24",
+    "bytes": 2194
+  },
+  "results/phax/information_boundary_channels.csv": {
+    "sha256": "d4faa15667809ed4868ce80a5c0d19fbfbe37669c62bf7304d97d13ebc9b8366",
+    "bytes": 607523
+  },
+  "results/phax/information_boundary_stages.csv": {
+    "sha256": "f55f809ee0997215a753dad245571913d0e8d77ab0db97355c3332440794a12a",
+    "bytes": 1757
+  },
+  "results/phax/information_head_affine_fit.csv": {
+    "sha256": "7bf110be63e5b537bc22387a3c1f90b51f0cbce3d96e1b547aa3a21b89f90fcb",
+    "bytes": 2234
+  },
+  "results/phax/information_head_counterfactuals.csv": {
+    "sha256": "c9ee506c56a5c25e0ffd94b0801ee1ff4c4b4578fdba6c3b974918a697ff76cf",
+    "bytes": 1561
+  },
+  "results/phax/information_paired_errors.csv": {
+    "sha256": "5f4850e38845c56c1e2ed0aefd7fb4a77c20c1452c642c152307c8f5781a872a",
+    "bytes": 7168016
+  },
+  "results/phax/information_summary.json": {
+    "sha256": "1f3992b5437986a455101497d9d59bbc47b69fe9be7d43dd8387ecab54e5138d",
+    "bytes": 10314
+  },
+  "results/phax/information_transition_ledger.csv": {
+    "sha256": "588e9abbba7a1acefcf7d91953279f9dd401b4eed096d26a61a982fa174b3c55",
+    "bytes": 1887
+  },
+  "results/phax/information_vtc_slopes.csv": {
+    "sha256": "55bbf119874837b67571eef9f310d81cdc259f1b55a147f86f4f954595d047de",
+    "bytes": 410241
+  },
+  "results/phax/local_matching_history.csv": {
+    "sha256": "9a794061b9c98c2d6d02a65e927c7dd852d4356a32834fb4fe8f8c7b8c1bf434",
+    "bytes": 3736
+  },
+  "results/phax/logit_diagnostic_v12_final.json": {
+    "sha256": "9cee0c66c7938aad1cb230323b70378cb4a1c88898b29e453a8e3c4df10bf461",
+    "bytes": 295
+  },
+  "results/phax/lut_xla_microbenchmark.csv": {
+    "sha256": "f11b13df6413ca327ccbabb8ebcc425199afb7d5d33dbac1c70891d67d1b0b0f",
+    "bytes": 288
+  },
+  "results/phax/measured_hspice_R_slope_table.csv": {
+    "sha256": "1830b20e63b1ce58e14000a2c15772c9d2c4ee4aae69c5af264889557724a9ee",
+    "bytes": 8444
+  },
+  "results/phax/phase_summary.csv": {
+    "sha256": "7e0c46f05f59e35b41047c34f177590c573f42c95b3899bfb4ee976225f45696",
+    "bytes": 2681
+  },
+  "results/phax/runtime_self_checks.json": {
+    "sha256": "270681001be4720fff1736eb3b1d9edc1cc6139a03cc12c859c2c2b302e7b7d1",
+    "bytes": 200
+  },
+  "results/phax/shiftadd_fit_per_channel.csv": {
+    "sha256": "10b6ab46bbc5c64bd8262c83d7f3d646545f21f978e7ad0b65956ec5df6d1c8b",
+    "bytes": 303720
+  },
+  "results/phax/shiftadd_hard_audit_v12_block_shift_1_2_immediate.csv": {
+    "sha256": "b6814d2ab92828b3a923c87266cce41a15e82cc63194e47e138135d38a7efc76",
+    "bytes": 9347
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint2_shift_qat_epoch1.csv": {
+    "sha256": "20c8c2b825d2e338b91fd62059e77302d40aac00cf0a14366da027606ba3dab7",
+    "bytes": 9475
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint2_shift_qat_epoch2.csv": {
+    "sha256": "0d159e2c69b6c4bad4bec7892eb4d934f82140287a686cb29376d17db2fb0213",
+    "bytes": 9475
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint4_recovery_epoch1.csv": {
+    "sha256": "1d86d3e3b1bbd370d0b2ddca4a8dec6d5cd5e8fd71a3cbd3a85b343b4f458821",
+    "bytes": 9347
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint4_shift_immediate.csv": {
+    "sha256": "8f6b72d8545309919bf3254fe34f07ebb69e5a7b57a616d294ea6319d7902b2e",
+    "bytes": 27809
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint4_shift_qat_epoch1.csv": {
+    "sha256": "b03ee4d448e0caa921612c0c3939ebb416fc45e1fcd51157a46b6fc09105b453",
+    "bytes": 28193
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint4_shift_qat_epoch2.csv": {
+    "sha256": "34e81f7f87939231b125ac713f14c2864415554983e4f19e7b3fc389f956b395",
+    "bytes": 28193
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint6_shift_immediate.csv": {
+    "sha256": "9a93340f9e21224ac148db44d8702d9e842b3209354e91fb15fd19383714f737",
+    "bytes": 64900
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint6_shift_qat_epoch1.csv": {
+    "sha256": "69dc2db7aaecd03da823d02ce9d99b9b201412c2168f978301ab1bd83b1dab0a",
+    "bytes": 65796
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint8_recovery_epoch1.csv": {
+    "sha256": "8cfeed657614cda98fdb0392d69094d599ca62fce0147b08d4353bdc932e1c7e",
+    "bytes": 64900
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint8_recovery_epoch2.csv": {
+    "sha256": "2b7e8f53e93b7edd2a5f425e354e65060243ea6a9107dfd1850a043f952c6319",
+    "bytes": 64900
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint8_shift_immediate.csv": {
+    "sha256": "8abc6e32fb645fc5db90e75d03523dfb2ea96e431c6e2167715245493341ce25",
+    "bytes": 139344
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint8_shift_qat_epoch1.csv": {
+    "sha256": "dbb7fc52ba566912cdec376a35c409b2e06b9a600cb63210124d06a45c04e266",
+    "bytes": 141264
+  },
+  "results/phax/shiftadd_hard_audit_v12_endpoint9_shift_immediate.csv": {
+    "sha256": "b58b5ab35c3359f556d79bb53de8727a0f04c58c4f1e1b3f24862cf031c77434",
+    "bytes": 176064
+  },
+  "results/phax/shiftadd_hard_audit_v12_final.csv": {
+    "sha256": "9e2b9af577cc73f6a7d39c01071dd08d6fcf3151126125fd9d110abb38431a8a",
+    "bytes": 127424
+  },
+  "results/phax/shiftadd_hard_audit_v12_guarded_full_polish_epoch1.csv": {
+    "sha256": "67a4c61e2e9546fa02b1266a689158c505aca9fa874a4d4163ae91bb7824be23",
+    "bytes": 178496
+  },
+  "results/phax/shiftadd_hard_audit_v12_guarded_full_polish_epoch2.csv": {
+    "sha256": "8d9f8205ec995e77c495dacc5111024fa1d6bfc4425f6d2b91f70b305e31b61e",
+    "bytes": 178496
+  },
+  "results/phax/shiftadd_hard_audit_v12_guarded_full_polish_epoch3.csv": {
+    "sha256": "80768290ecbb739cb1a705a64af8907478b990482f8132c22f608d5b62df5e2b",
+    "bytes": 178496
+  },
+  "results/phax/shiftadd_hard_audit_v12_guarded_full_polish_epoch4.csv": {
+    "sha256": "6a8f27a3941da08fcae7932bc833f2b4c97303ec681f0cb8c169b00bd58a826e",
+    "bytes": 178496
+  },
+  "results/phax/shiftadd_hard_audit_v12_guarded_full_polish_epoch5.csv": {
+    "sha256": "8d907de5e6910e21c93a5f63626d1cf431e77ebc0f9490eb2a07641704b4e2e4",
+    "bytes": 178496
+  },
+  "results/phax/shiftadd_hard_audit_v12_tail_coadapt_epoch1.csv": {
+    "sha256": "35a86be46af1dc7619534d296c3bae158c6e3bc0b19b06dc88f0be168c904d4c",
+    "bytes": 161472
+  },
+  "results/phax/summary.json": {
+    "sha256": "71992fc55ea25547a52a50aa5bcaf4528218821d7c286982c576234503af7b18",
+    "bytes": 119626
+  },
+  "results/phax/teacher_normalization.csv": {
+    "sha256": "02e5d9a24ee4b43aed41383ec42c952db0f97fca2e26b67868630217dce9818d",
+    "bytes": 909
+  },
+  "results/phax/trained_gain_v12_final.csv": {
+    "sha256": "b4179df2e83ed6630b9f7ee205437ee820165e87a7dddfaeeb358f7a85b52445",
+    "bytes": 394340
+  },
+  "results/phax/transition_metrics.csv": {
+    "sha256": "ae64babcaa68e28fe09f43035191571edc14ff6219256edf86e6dbf4070944e5",
+    "bytes": 1064
+  },
+  "results/phax/v12_endpoint_summary.csv": {
+    "sha256": "25fdd8217005007bb74fba6be08c26c55939eaf21ba71bc0e91beeed665942b5",
+    "bytes": 130
+  },
+  "results/phax/vtc_derivative_per_channel.csv": {
+    "sha256": "30a3f6cf5b04d39e293262d9ad1961255ba241600ab9741aeae7781787f4ad38",
+    "bytes": 386118
+  }
+}

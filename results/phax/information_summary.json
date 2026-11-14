@@ -1,0 +1,335 @@
+{
+  "probe_train_images": 400,
+  "probe_indices_sha256": "ba22ae4bea65d354cf74b15604853ccdbb094757f102b28f8b5c3bb84633fc59",
+  "probe_batch_size": 4,
+  "local_holdout_probe_images": 200,
+  "entropy_is_not_task_information": true,
+  "paired_error_contributions_are_not_additive": true,
+  "stale_float_BN_not_used_as_post_QAT_reference": true,
+  "head_affine_is_diagnostic_only": true,
+  "official_test_used_for_probes": false,
+  "internal_digital_head_is_not_external_baseline": true,
+  "transition_ledger": [
+    {
+      "event": "Float_to_ShiftAdd_conversion",
+      "stage": "2",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9064,
+      "after_accuracy": 0.9012,
+      "delta_pp": -0.5199999999999982
+    },
+    {
+      "event": "classification_QAT_recovery",
+      "stage": "2",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9012,
+      "after_accuracy": 0.909,
+      "delta_pp": 0.7800000000000029
+    },
+    {
+      "event": "replace_digital_block_by_locally_matched_physical_float",
+      "stage": "4",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.909,
+      "after_accuracy": 0.909,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "float_classification_recovery",
+      "stage": "4",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.909,
+      "after_accuracy": 0.909,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "Float_to_ShiftAdd_conversion",
+      "stage": "4",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.909,
+      "after_accuracy": 0.9072,
+      "delta_pp": -0.18000000000000238
+    },
+    {
+      "event": "classification_QAT_recovery",
+      "stage": "4",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9072,
+      "after_accuracy": 0.9096,
+      "delta_pp": 0.23999999999999577
+    },
+    {
+      "event": "replace_digital_block_by_locally_matched_physical_float",
+      "stage": "6",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9096,
+      "after_accuracy": 0.9078,
+      "delta_pp": -0.17999999999999128
+    },
+    {
+      "event": "float_classification_recovery",
+      "stage": "6",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9078,
+      "after_accuracy": 0.9078,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "Float_to_ShiftAdd_conversion",
+      "stage": "6",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9078,
+      "after_accuracy": 0.9084,
+      "delta_pp": 0.05999999999999339
+    },
+    {
+      "event": "classification_QAT_recovery",
+      "stage": "6",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9084,
+      "after_accuracy": 0.9084,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "replace_digital_block_by_locally_matched_physical_float",
+      "stage": "8",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9084,
+      "after_accuracy": 0.896,
+      "delta_pp": -1.2399999999999967
+    },
+    {
+      "event": "float_classification_recovery",
+      "stage": "8",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.896,
+      "after_accuracy": 0.9076,
+      "delta_pp": 1.1599999999999944
+    },
+    {
+      "event": "Float_to_ShiftAdd_conversion",
+      "stage": "8",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9076,
+      "after_accuracy": 0.9076,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "classification_QAT_recovery",
+      "stage": "8",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9076,
+      "after_accuracy": 0.9076,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "replace_digital_block_by_locally_matched_physical_float",
+      "stage": "9",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9076,
+      "after_accuracy": 0.9052,
+      "delta_pp": -0.23999999999999577
+    },
+    {
+      "event": "float_classification_recovery",
+      "stage": "9",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9052,
+      "after_accuracy": 0.9052,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "Float_to_ShiftAdd_conversion",
+      "stage": "9",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9052,
+      "after_accuracy": 0.9052,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "classification_QAT_recovery",
+      "stage": "9",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9052,
+      "after_accuracy": 0.9052,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "replace_internal_digital_output_by_physical_S10",
+      "stage": "10",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.9052,
+      "after_accuracy": 0.8996,
+      "delta_pp": -0.5600000000000049
+    },
+    {
+      "event": "v12_stage10_head",
+      "stage": "10",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.8996,
+      "after_accuracy": 0.8996,
+      "delta_pp": 0.0
+    },
+    {
+      "event": "v12_tail_coadapt",
+      "stage": "10",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.8996,
+      "after_accuracy": 0.904,
+      "delta_pp": 0.44000000000000705
+    },
+    {
+      "event": "v12_guarded_full_polish",
+      "stage": "10",
+      "data_source": "full_5000_validation",
+      "before_accuracy": 0.904,
+      "after_accuracy": 0.908,
+      "delta_pp": 0.40000000000000036
+    }
+  ],
+  "head_counterfactuals": [
+    {
+      "label": "S10_MAPPED_BEFORE_RECOVERY",
+      "variant": "digital_with_bias",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.98,
+      "disagreement_with_current_internal_digital_head": 0.0,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 7.044361412525177,
+      "diagnostic_only": false,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "S10_MAPPED_BEFORE_RECOVERY",
+      "variant": "digital_without_bias",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.98,
+      "disagreement_with_current_internal_digital_head": 0.0,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 7.115751326084137,
+      "diagnostic_only": false,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "S10_MAPPED_BEFORE_RECOVERY",
+      "variant": "physical_volts",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.975,
+      "disagreement_with_current_internal_digital_head": 0.015,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 0.2166093634441495,
+      "diagnostic_only": false,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "S10_MAPPED_BEFORE_RECOVERY",
+      "variant": "physical_ADC",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.975,
+      "disagreement_with_current_internal_digital_head": 0.015,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 55.0,
+      "diagnostic_only": false,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "S10_MAPPED_BEFORE_RECOVERY",
+      "variant": "diagnostic_only_fitted_affine",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.985,
+      "disagreement_with_current_internal_digital_head": 0.015,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 7.584270691224388,
+      "diagnostic_only": true,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "FINAL_SELECTED",
+      "variant": "digital_with_bias",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.985,
+      "disagreement_with_current_internal_digital_head": 0.0,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 7.218383967876434,
+      "diagnostic_only": false,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "FINAL_SELECTED",
+      "variant": "digital_without_bias",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.985,
+      "disagreement_with_current_internal_digital_head": 0.0,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 7.250483572483063,
+      "diagnostic_only": false,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "FINAL_SELECTED",
+      "variant": "physical_volts",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.99,
+      "disagreement_with_current_internal_digital_head": 0.005,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 0.22210077196359634,
+      "diagnostic_only": false,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "FINAL_SELECTED",
+      "variant": "physical_ADC",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.985,
+      "disagreement_with_current_internal_digital_head": 0.01,
+      "top1_tie_fraction": 0.005,
+      "median_margin_native_units": 56.0,
+      "diagnostic_only": false,
+      "digital_bias_abs_max": 0.07422361522912979
+    },
+    {
+      "label": "FINAL_SELECTED",
+      "variant": "diagnostic_only_fitted_affine",
+      "data_source": "second_half_of_fixed_TRAIN_probe",
+      "images": 200,
+      "fit_images": 200,
+      "accuracy": 0.98,
+      "disagreement_with_current_internal_digital_head": 0.005,
+      "top1_tie_fraction": 0.0,
+      "median_margin_native_units": 7.593309789466154,
+      "diagnostic_only": true,
+      "digital_bias_abs_max": 0.07422361522912979
+    }
+  ],
+  "head_recovery_config": {
+    "experiment": "INFO00_BN05_CONTROL_DIAGNOSTICS",
+    "head_epochs": 0,
+    "head_lr": 0.0005,
+    "head_patience": 1,
+    "trainable_during_head_recovery": [
+      10
+    ],
+    "R_and_depth_fixed": true,
+    "full_polish_max_epochs": 5,
+    "full_polish_lr": 5e-06,
+    "full_polish_patience": 2
+  }
+}

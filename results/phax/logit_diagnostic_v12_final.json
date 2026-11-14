@@ -1,0 +1,10 @@
+{
+  "label": "v12_final",
+  "accuracy_train_diagnostic": 0.975,
+  "median_adc_code_margin": 51.5,
+  "top1_tie_fraction": 0.0,
+  "final_ADC_argmax_change_fraction": 0.0,
+  "crossentropy_T1": 0.6012147068977356,
+  "crossentropy_T8": 0.11392422020435333,
+  "crossentropy_T16": 0.18385669589042664
+}

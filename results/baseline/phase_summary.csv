@@ -1,0 +1,4 @@
+phase,epochs_executed,loss,accuracy
+joint,36,0.3270654296875,0.9072
+live_bn_low,4,0.324816650390625,0.9148
+live_bn_lower,5,0.3157713623046875,0.9214

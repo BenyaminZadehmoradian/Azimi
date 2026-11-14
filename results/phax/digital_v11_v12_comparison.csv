@@ -1,0 +1,4 @@
+model,validation_accuracy,test_accuracy,selected_path_train_sec,selected_ratio_vs_digital
+digital_baseline,0.9214,0.9193,2072.356839279,1.0
+V11.0,0.9126,0.9043,13618.74,6.571619202771149
+INFO00_BN05_CONTROL_DIAGNOSTICS,0.908,0.9053,3665.2677043639997,1.7686469988629925

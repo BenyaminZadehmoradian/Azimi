@@ -1,0 +1,48 @@
+{
+  "seed": 42,
+  "split_fingerprint": "c7cee14bf6acb10a103c2d362ed94615d4e67bcf3a944cb2dd10f4d138bccf62",
+  "dataset_sha256": "b937bd560d14815cc5e310ab7435d42bf0f47711847a88071630ed643a14e1a6",
+  "batch_size": 16,
+  "eval_batch": 64,
+  "total_epoch_cap": 65,
+  "phases": [
+    [
+      "joint",
+      0.0005,
+      4,
+      10042
+    ],
+    [
+      "live_bn_low",
+      0.00025,
+      3,
+      12542
+    ],
+    [
+      "live_bn_lower",
+      0.000125,
+      3,
+      14042
+    ]
+  ],
+  "BN_momentum": 0.9,
+  "BN_epsilon": 0.001,
+  "input_normalization": "x/255-0.5",
+  "augmentation": "pad40/stateless_crop32/stateless_horizontal_flip",
+  "macro_architecture": "VGG9 8conv+2dense GAP",
+  "baseline_logit_temperature": 1,
+  "environment": {
+    "python": "3.13.15",
+    "tensorflow": "2.20.0",
+    "keras": "3.13.2",
+    "visible_GPU": [
+      "Tesla T4"
+    ],
+    "precision": "float32",
+    "batch_size": 16,
+    "deterministic": true,
+    "multi_GPU_training": false
+  },
+  "front": false,
+  "ADC_DAC": false
+}

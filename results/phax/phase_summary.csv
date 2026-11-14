@@ -1,0 +1,15 @@
+phase,initial_validation,validation,epochs_executed,best_local_epoch,train_to_best_sec,actual_training_sec,lr,model_kind
+v12_endpoint2_float,"{'loss': 2.329037890625, 'accuracy': 0.0946}","{'loss': 0.3761534912109375, 'accuracy': 0.882}",12,12,1328.4082523969998,1328.4082523969998,0.001,hybrid_v12_endpoint2_float
+v12_endpoint2_float_refine,"{'loss': 0.3761534912109375, 'accuracy': 0.882}","{'loss': 0.2961441650390625, 'accuracy': 0.9064}",1,1,115.22649086199999,115.22649086199999,0.0002,hybrid_v12_endpoint2_float_refine
+v12_endpoint2_shift_qat,"{'loss': 0.3105382080078125, 'accuracy': 0.9012}","{'loss': 0.28401240234375, 'accuracy': 0.909}",2,1,117.50084244300001,230.58089667100012,5e-05,hybrid_v12_endpoint2_shift_qat
+v12_endpoint4_recovery,"{'loss': 0.2842061767578125, 'accuracy': 0.909}","{'loss': 0.2842061767578125, 'accuracy': 0.909}",1,0,0.0,141.44480050999982,0.0002,hybrid_v12_endpoint4_recovery
+v12_endpoint4_shift_qat,"{'loss': 0.2871173828125, 'accuracy': 0.9072}","{'loss': 0.2913315673828125, 'accuracy': 0.9096}",2,2,277.113518999,277.113518999,5e-05,hybrid_v12_endpoint4_shift_qat
+v12_endpoint6_recovery,"{'loss': 0.2942827392578125, 'accuracy': 0.9078}","{'loss': 0.2942827392578125, 'accuracy': 0.9078}",0,0,0.0,0.0,0.0002,hybrid_v12_endpoint6_recovery
+v12_endpoint6_shift_qat,"{'loss': 0.2932001953125, 'accuracy': 0.9084}","{'loss': 0.2932001953125, 'accuracy': 0.9084}",1,0,0.0,178.32553089299972,5e-05,hybrid_v12_endpoint6_shift_qat
+v12_endpoint8_recovery,"{'loss': 0.3084319580078125, 'accuracy': 0.896}","{'loss': 0.3081661376953125, 'accuracy': 0.9076}",2,1,217.43703228599998,427.04141935300004,0.0002,hybrid_v12_endpoint8_recovery
+v12_endpoint8_shift_qat,"{'loss': 0.301516845703125, 'accuracy': 0.9076}","{'loss': 0.301516845703125, 'accuracy': 0.9076}",1,0,0.0,215.96428255299998,5e-05,hybrid_v12_endpoint8_shift_qat
+v12_endpoint9_recovery,"{'loss': 0.3059909912109375, 'accuracy': 0.9052}","{'loss': 0.3059909912109375, 'accuracy': 0.9052}",0,0,0.0,0.0,0.0002,hybrid_v12_endpoint9_recovery
+v12_endpoint9_shift_qat,"{'loss': 0.302197119140625, 'accuracy': 0.9052}","{'loss': 0.302197119140625, 'accuracy': 0.9052}",0,0,0.0,0.0,5e-05,hybrid_v12_endpoint9_shift_qat
+v12_stage10_head,"{'loss': 0.33157822265625, 'accuracy': 0.8996}","{'loss': 0.33157822265625, 'accuracy': 0.8996}",0,0,0.0,0.0,0.0005,full
+v12_tail_coadapt,"{'loss': 0.33157822265625, 'accuracy': 0.8996}","{'loss': 0.32167197265625, 'accuracy': 0.904}",1,1,263.6017510929996,263.6017510929996,5e-05,full
+v12_guarded_full_polish,"{'loss': 0.32167197265625, 'accuracy': 0.904}","{'loss': 0.3127045654296875, 'accuracy': 0.908}",5,3,987.7823162080003,1640.2783169189997,5e-06,full

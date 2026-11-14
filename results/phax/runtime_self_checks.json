@@ -1,0 +1,7 @@
+{
+  "right_shift_STE": "passed",
+  "all_255_ADC_codes": "passed",
+  "fused_raw_error_v": 1.280568540096283e-08,
+  "rounding": "nearest_ties_to_even",
+  "full_Kaggle_training_executed_locally": false
+}

@@ -1,0 +1,12 @@
+label,kind,val_accuracy,val_loss,active_shift_stages,previous_endpoint_accuracy
+endpoint2_float_selected,endpoint,0.882,0.3761534912109375,[],
+endpoint2_float_refined,endpoint_refine,0.9064,0.2961441650390625,[],
+endpoint2_shift_immediate,conversion,0.9012,0.3105382080078125,"[1, 2]",
+endpoint4_after_local_match,function_preserving_transition,0.909,0.2842061767578125,"[1, 2]",0.909
+endpoint4_shift_immediate,conversion,0.9072,0.2871173828125,"[1, 2, 3, 4]",
+endpoint6_after_local_match,function_preserving_transition,0.9078,0.2942827392578125,"[1, 2, 3, 4]",0.9096
+endpoint6_shift_immediate,conversion,0.9084,0.2932001953125,"[1, 2, 3, 4, 5, 6]",
+endpoint8_after_local_match,function_preserving_transition,0.896,0.3084319580078125,"[1, 2, 3, 4, 5, 6]",0.9084
+endpoint8_shift_immediate,conversion,0.9076,0.301516845703125,"[1, 2, 3, 4, 5, 6, 7, 8]",
+endpoint9_after_local_match,function_preserving_transition,0.9052,0.3059909912109375,"[1, 2, 3, 4, 5, 6, 7, 8]",0.9076
+endpoint9_shift_immediate,conversion,0.9052,0.302197119140625,"[1, 2, 3, 4, 5, 6, 7, 8, 9]",

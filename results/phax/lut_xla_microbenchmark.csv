@@ -1,0 +1,7 @@
+workload,method,first_compile_and_execution_s,steady_forward_backward_ms
+medium,TF LUT reference,0.276,3.0639
+medium,TF LUT single-gather,0.161,1.6399
+medium,TF LUT XLA,0.467,1.1465
+large,TF LUT reference,0.183,15.998
+large,TF LUT single-gather,0.101,5.8807
+large,TF LUT XLA,0.322,2.0388
